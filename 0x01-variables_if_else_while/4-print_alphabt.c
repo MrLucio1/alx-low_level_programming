@@ -6,17 +6,17 @@
   * Return: Always 0 (Success)
   */
 int main(void)
- {
-         char mine = 'a';
+{
+char mine = 'a';
 
-         while (mine <= 'z')
-         {
-                 if (mine != 'e' && mine != 'q')
-                 {
-                         putchar(mine);
-                 }
-                 mine++;
-         }
-         putchar('\n');
-         return (0);
- }
+while (mine <= 'z')
+{
+if (mine != 'e' && mine != 'q')
+{
+putchar(mine);
+}
+mine++;
+}
+putchar('\n');
+return (0);
+}
