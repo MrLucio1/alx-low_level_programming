@@ -5,13 +5,13 @@
  * Return: Always 0 (Success) 
  */
 int main(void)
- {
-         int num;
+{
+	int num;
 
-         for (num = 48; num < 58; num++)
-         {
-                 putchar(num);
-         }
-         putchar('\n');
-         return (0);
- }
+	for (num = 48; num < 58; num++)
+{
+	putchar(num);
+}
+	putchar('\n');
+	return (0);
+}
