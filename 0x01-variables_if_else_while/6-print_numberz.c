@@ -5,11 +5,11 @@
  * You can only use the putchar function
  * Return: 0
  */
-int main(void)
+int main(void)
 {
-int d;
-for (d = 0; d <= 9; d++)
-putchar(d);
-putchar('\n');
-return (0);
+	int d;
+	for (d = 0; d < 7; d++)
+		putchar(d);
+	putchar('\n');
+	return (0);
 }
