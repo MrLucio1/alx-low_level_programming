@@ -8,24 +8,23 @@
  */
 int main(void)
 {
-	int n1 = 48;
-	int n2;
-	int com = 44;
-	while (n1 <= 57)
+	int num1, num2;
+
+	for (num1 = 48; num1 <= 56; num1++)
 	{
-		n2 = n1 + 1;
-		while (n2 <= 57)
+		for (num2 = 49; num2 <= 57; num2++)
 		{
-			putchar(n1);
-			putchar(n2);
-			if (n1 != 56 || n2 != 57)
+			if (num2 > num1)
 			{
-				putchar(com);
-				putchar(32);
+				putchar(num1);
+				putchar(num2);
+				if (num1 != 56 || num2 != 57)
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
-			n2 += 1;
 		}
-		n1 += 1;
 	}
 	putchar('\n');
 	return (0);
