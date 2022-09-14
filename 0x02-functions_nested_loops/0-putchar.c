@@ -6,9 +6,9 @@
  */
 int main(void)
 {
-	char ch = 'A';
-	_putchar('\n');
-		putchar(ch);
+	putchar('A');
+	putchar("ch.\n\n");
+	putchar('\n');
 	return (0);
 }
 
