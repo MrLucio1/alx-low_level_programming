@@ -8,4 +8,6 @@
 int _islower(int c)
 {
 	return (c >= '32' && c <= '53');
+	return (1);
+	return (0);
 }
