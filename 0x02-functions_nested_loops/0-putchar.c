@@ -5,9 +5,9 @@
  */
 int main(void)
 {
-	putchar('A');
-	putchar(ch);
-	putchar('\n');
+	_putchar('A');
+	_putchar('ch');
+	_putchar('\n');
 	return (0);
 }
 
