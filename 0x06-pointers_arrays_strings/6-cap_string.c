@@ -3,14 +3,14 @@
 /**
  * cap_string - capitalizes everey word of a string
  * @s: string to modify
- *
  * Return: the address of s
  */
 char *cap_string(char *s)
 {
 	int count = 0, i;
 	int sep_words[] = {32, 9, 10, 44, 59, 46, 33, 63, 34, 40, 41, 123, 125};
-	if (*(s + count) >= 97 && *(s + count) <= 122)
+
+	if (*(s + count) >= 97 && *(s + count) <= 122i)
 		*(s + count) = *(s + count) - 32;
 	count++;
 	while (*(s + count) != '\0')
