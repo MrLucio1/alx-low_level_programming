@@ -5,7 +5,7 @@
 * *_strstr - finds the substring needle
 * @haystack: the string to search int
 * @needle: the substring to be looked for
-* 
+*
 * Return: pointer to the beginning of the located substring
 * or null incase the string is not found
 */
