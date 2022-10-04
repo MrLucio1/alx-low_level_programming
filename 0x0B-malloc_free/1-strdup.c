@@ -4,7 +4,8 @@
  * *_strdup - copies the string given as parameter
  * @str: string to duplicate
  *
- * Return: pointer to the copied string (Success), NULL (Error)
+ * Return: pointer to the copied string (Success)
+ * NULL (Error)
  */
 char *_strdup(char *str)
 {
@@ -21,7 +22,7 @@ char *_strdup(char *str)
 	dup = malloc((len + 1) * sizeof(char));
 	if (dup == NULL)
 		return (NULL);
-	while ((str[i] = dup[i]) != '\0')
+	while ((dup[i] = str[i]) != '\0')
 		i++;
 	return (dup);
 }
