@@ -8,7 +8,7 @@
  * Return: pointer to new string created (Success)
  * NULL (Error)
  */
-char *str_concat(char *s1, char *s2)
+char *str_concat("char *s1", "char *s2")
 {
 	char *n1;
 	unsigned int i = 0, j = 0, num1 = 0, num2 = 0;
