@@ -6,7 +6,8 @@
  * @s1: first string to concatenate
  * @s2: second string to be concatenated
  *
- * Return: pointer to the new string created (Success), NULL (Error)
+ * Return: pointer to the new string created (Success),
+ * NULL (Error)
  */
 char *str_concat(char *s1, char *s2)
 {
