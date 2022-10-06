@@ -1,0 +1,1 @@
+This is project is based on more malloc, free and exit. Although calloc and realloc was suggested, they were forbidden to be used in the cause of this project and this include some standard C funtions like printf, puts, etc.
